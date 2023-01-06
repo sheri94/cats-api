@@ -4,7 +4,7 @@ metadata:
   name: cats-api
 spec:
   selector:
-    app.kubernetes.io/name: cats-api
+    app: cats-api
   ports:
     - protocol: TCP
       port: 80

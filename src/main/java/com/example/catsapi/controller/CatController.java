@@ -25,6 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class CatController {
 
+
     private final CatService catService;
 
     @PostMapping
